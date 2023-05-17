@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"name": "torta Minions",
+		"relleno": "dulce de leche y oreo",
+		"saborDelBiscochuelo": "vainilla",
+		"price": 5000,
+		"code": "101",
+		"kilogramos": 3,
+		"img": "imagen1"
+	},
+	{
+		"id": 2,
+		"name": "torta kakita",
+		"relleno": "dulce de leche con fruta a eleccion",
+		"saborDelBiscochuelo": "Chocolate",
+		"price": 2000,
+		"code": "102",
+		"kilogramos": 4,
+		"img": "imagen2"
+	},
+	{
+		"id": 3,
+		"name": "torta carousel",
+		"relleno": "mouse de chocolate",
+		"saborDelBiscochuelo": " chocolate y vainilla",
+		"price": 4000,
+		"code": 3,
+		"kilogramos": "103",
+		"img": "imagen3"
+	},
+	{
+		"id": 4,
+		"name": "torta casamiento",
+		"relleno": "dulce de leche y chocolate",
+		"saborDelBiscochuelo": "sin sabor",
+		"price": 20000,
+		"code": 15,
+		"kilogramos": "104",
+		"img": "imagen4"
+	}
+]
