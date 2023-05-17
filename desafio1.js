@@ -56,8 +56,12 @@ class Tortas {
 
         // 11
     await fs.promises.writeFile('./tortas.json', JSON.stringify(this.#events, null, '\t'))
-        
-    }
+
+    let DatosProductos = JSON.parse(await fs.promises.readFile('./tortas.json', 'utf-8'))
+
+    DatosProductos.price = 10
+        await fs.promises.writeFile('./tortas.json', JSON.stringify(DatosProductos, null, '\t'))  
+}
    
 }
 
@@ -68,5 +72,6 @@ tortasConProductos.addEvent('torta Minions', 'dulce de leche y oreo', 'vainilla'
 tortasConProductos.addEvent('torta kakita', 'dulce de leche con fruta a eleccion', 'Chocolate', 2000, '102', 4, 'imagen2')
 tortasConProductos.addEvent('torta carousel', 'mouse de chocolate', ' chocolate y vainilla', 4000, 3, '103', 'imagen3') 
 tortasConProductos.addEvent('torta casamiento', 'dulce de leche y chocolate', 'sin sabor', 20000, 15, '104', 'imagen4')
+tortasConProductos.addEvent('torta nose', 'dulce de leche y chocolates', 'sin sabores', 150000, 150, '105', 'imagen5')
 
 

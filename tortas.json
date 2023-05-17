@@ -38,5 +38,15 @@
 		"code": 15,
 		"kilogramos": "104",
 		"img": "imagen4"
+	},
+	{
+		"id": 5,
+		"name": "torta nose",
+		"relleno": "dulce de leche y chocolates",
+		"saborDelBiscochuelo": "sin sabores",
+		"price": 150000,
+		"code": 150,
+		"kilogramos": "105",
+		"img": "imagen5"
 	}
 ]
