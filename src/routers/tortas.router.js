@@ -17,7 +17,10 @@ router.get('/', (req, res) => {
 //endpoint para leer un solo producto a partir de su ID
 // post lee los post
 router.get('/:id', (req, res) => {
-    res.json({ mesagge: "productos" })
+    //creo un buscador de id
+    const id = req.params.id
+    const tortasid = tortasProductosrouter.find(item => item.id == id)
+    res.json({ tortasid })
 })
 //endpoint para crear a un nuevo producto
 // put crea los productos
